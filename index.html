@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html ng-app="LearnFromVideoGames">
+
+<head>
+<meta charset="utf-8">
+<title>Learn From Video Games</title>
+
+<link rel="stylesheet" href="http://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css">
+<link rel="stylesheet" href="//netdna.bootstrapcdn.com/twitter-bootstrap/2.3.1/css/bootstrap-combined.min.css">
+<link rel="stylesheet" href="jquery-ui.css">
+<link rel="stylesheet" href="stylesheet.css">
+
+
+    
+
+</head>
+ 
+<body  ng-controller="NavCtrl">
+
+	<div class="navbar-wrapper">
+<div class="container">
+  <div class="navbar navbar-inverse">
+  	<div class="navbar-header">
+  		<a class="navbar-brand" href="/">Learn From Video Games</a>
+  	</div>
+    <ul class="nav navbar-nav">
+      <li ng-class="navClass('games')"><a href='' ng-click="loadGames()">Games</a></li>
+      <li ng-class="navClass('categories')"><a href='' ng-click="loadCategories()">Categories</a></li>
+    </ul>
+  </div>
+
+</div>
+  
+  <div ng-view></div>
+
+<script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+<script src="//ajax.googleapis.com/ajax/libs/jqueryui/1.10.3/jquery-ui.min.js"></script>
+<script>
+  $(function() {
+    $( "#accordion" ).accordion();
+  });
+</script>
+<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.0.7/angular.min.js"></script>
+<script src="ui-bootstrap-tpls-0.5.0.js"></script>
+<script src="script.js"></script>
+<script src="slides.json"></script>
+<script src="games.json"></script>
+</body>
+</html>
+

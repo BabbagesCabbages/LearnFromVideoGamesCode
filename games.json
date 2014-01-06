@@ -1,0 +1,41 @@
+[
+		{
+		"image":"images/contrast-carousel.jpg",
+		"title":"Contrast Review",
+		"critical":"2",
+		"leadership":"0",
+		"decision":"0",
+		"math":"0",
+		"geography":"0",
+		"history":"0",
+		"communication":"0",
+		"system":"0"
+		},
+
+		{
+		"image":"images/batman-carousel.jpg",
+		"title":"Batman Arkham Origins Review",
+		"critical":"3",
+		"leadership":"0",
+		"decision":"0",
+		"math":"0",
+		"geography":"0",
+		"history":"0",
+		"communication":"0",
+		"system":"0"
+		},
+
+		{
+		"image":"images/creed-carousel.jpg",
+		"title":"AC4:Black Flag Review",
+		"critical":"4",
+		"leadership":"0",
+		"decision":"0",
+		"math":"0",
+		"geography":"0",
+		"history":"0",
+		"communication":"0",
+		"system":"0"
+		}		
+		
+]

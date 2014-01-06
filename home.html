@@ -1,0 +1,91 @@
+<div ng-controller="HomeCtrl">
+<carousel class="carousel" interval="myInterval">
+	<slide ng-repeat="slide in slides" active="slide.active">
+		<img ng-src="{{slide.image}}" style="margin:active"/>
+      <div class="carousel-caption">
+        <h1>{{slide.title}}</h1>
+        
+        <a class="btn btn-large btn-primary" ng-click="loadGames()"href="#games">View Rating</a>
+    </div>
+	</slide>
+<carousel>
+</div>
+
+<div class="container marketing">
+<h2>News</h2>
+      <!-- Three columns of text below the carousel -->
+      <div class="row">
+        <div>
+          <img src="images/news1.jpg">
+          <h4>VideoGames help surgeons</h4>
+          <p>Heres an article about a surgeon that realized playing video games with his son was actually making him
+            better at his job.</p>
+          <p><a class="btn" href="http://www.wired.com/wiredscience/2012/12/robotic-surgery-and-gaming/">details »</a></p>
+        </div><!-- /.span4 -->
+        <div>
+         <img src="images/news2.jpg">
+          <h4>Gaming helps cognition</h4>
+          <p>Study shows that multitasking ability linearly drops with age. Choosing the 60-85 year olds to play videogames, they eventually showed an increase in multitasking, improved cognition, and more brain activity. </p>
+          <p><a class="btn" href="http://www.nature.com/polopoly_fs/1.13674!/menu/main/topColumns/topLeftColumn/pdf/501018a.pdf">details »</a></p>
+        </div><!-- /.span4 -->
+        <div>
+          <img src="images/news3.jpg">
+          <h4>Games make you Happy</h4>
+          <p>Some at the APA are saying even games that show no obvious educational quality can still elevate mood and lower stress </p>
+          <p><a class="btn" href="http://www.apa.org/news/press/releases/2013/11/video-games.aspx">details »</a></p>
+        </div><!-- /.span4 -->
+      </div><!-- /.row -->
+
+
+      <!-- START THE FEATURETTES -->
+
+
+      <div class="featurette">
+        <h2 class="featurette-heading">Featured Game of the Month</h2>
+        <img class="pull-left" src="images/roguelegacy.jpg">
+        <h3>Rogue Legacy</h3>
+        <p class="lead">After beating this game 4 times over and still coming back for more makes this definitley one of
+          my top games this year. That fact that you lose 95% of your money everytime you die really amps up critical thinking and decision making. You have to scavenge and play it safe while deciding if you should skip the room
+          or see whats inside the chest. These constant decisions with reward or consequence make the game easy to pick up and put down. I think thats a compliment.</p>
+      </div>
+
+      <hr class="featurette-divider">
+
+      <div class="featurette">
+        <h2 class="featurette-heading">2013 yearly buyers guide</h2>
+        <p class="lead">
+          <h3>Quick-Look Reviews</h3>
+          <ul>
+          <li>Dead Space 3 Quick-Review</li>
+          <li>SimCity</li>
+          <li>Splinter Cell: Blacklist</li>
+          <li>Battlefield 4</li>
+          <li>more coming soon...</li>
+<img class="pull-left" src="images/bg1.jpg">
+<img class="pull-left" src="images/bg2.jpg">
+<img class="pull-left" src="images/bg3.jpg">
+<img class="pull-left" src="images/bg4.jpg">
+      </ul>
+          </p>
+      </div>
+
+      <hr class="featurette-divider">
+
+      <div class="featurette">
+        <h2 class="featurette-heading">About</h2>
+        <p class="lead">It's scientific fact. Video Games help you learn and grow. I hope to accomplish some sort of grading system and put each game I play into it. Hopefully this gives the world a better idea of what games hold more educational value over others.</p>
+      </div>
+
+      <hr class="featurette-divider">
+
+      <!-- /END THE FEATURETTES -->
+
+
+      <!-- FOOTER -->
+      <footer>
+        <p class="pull-right"><a href="#">Back to top</a></p>
+        <p>© 2013 Learn From Video Games, Inc. · <a href="#games">Games</a> · <a href="#categories">Categories</a></p>
+      </footer>
+
+    </div>
+

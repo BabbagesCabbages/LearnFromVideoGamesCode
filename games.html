@@ -1,0 +1,25 @@
+<div class="jumbotron text-center">
+	<h1>Games</h1>
+</div>
+
+<div class="container marketing" ng-controller="GamesCtrl">
+	<h1>Reviews</h1>
+	<div ng-repeat="game in games">
+	<img ng-src="{{game.image}}"/>
+	<span>{{game.title}}</span>
+	  <dl class="ratings">
+         <dd>Critical Thinking:
+         <span>{{game.critical}}
+         </span>
+      </dd>
+      <dd>Leadership & Management:
+         <span>{{game.leadership}}
+         </span>
+      </dd>
+    </dl>
+    <h4>{{game.rating}}</h4>
+	<div class="triangle-topright">
+	</div>
+	<hr class="featurette-divider + triangle-bottomleft ">
+	</div>
+</div>
